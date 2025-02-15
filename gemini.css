@@ -1,0 +1,253 @@
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-shadow: 0 0 5px #55593d, 0 0 5px #a39c4b;
+  font-family: Poiret One;
+  letter-spacing: 5px;
+  text-decoration: none;
+  padding: 9px 19px;
+  margin: 0 9px;
+  font-size: 18px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+#portal:hover {
+  text-shadow: 0 0 5px #e100ff, 0 0 5px #a2f6ff, 0 0 5px #bb00ff,
+    0 0 5px #b300ff;
+  border-radius: 1px;
+}
+
+#zodiac:hover {
+  text-shadow: 0 0 5px #ff9100, 0 0 5px #a2f6ff, 0 0 5px #ffa600,
+    0 0 5px #ff7700;
+  border-radius: 1px;
+}
+
+#oracle:hover {
+  text-shadow: 0 0 5px #00ff1a, 0 0 5px #0a4606, 0 0 5px #0cb128,
+    0 0 5px #0e893d;
+  border-radius: 1px;
+}
+
+body {
+  background-image: url(BGs/gemini.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#title {
+  text-align: center;
+  font-family: Bodoni Moda;
+  font-size: 50px;
+  margin-top: 5%;
+  text-shadow: 0 1px 2px #55593d;
+}
+
+#quote {
+  text-align: center;
+  font-family: Bodoni Moda;
+  font-size: 18px;
+  margin-bottom: 5%;
+  margin-top: -2%;
+}
+
+div p {
+  font-family: Old Standard TT;
+  font-size: 24px;
+  margin-top: -2%;
+}
+
+div h3 {
+  font-family: Bodoni Moda;
+  font-size: 34px;
+  font-style: italic;
+}
+
+div ul {
+  font-family: Old Standard TT;
+  font-size: 20px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  margin: auto;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #1c251dbd;
+}
+
+#traits,
+#compatibility,
+#company {
+  margin-top: -2%;
+}
+
+#symbolaries {
+  display: inline-flex;
+  width: 5.5%;
+  height: 2%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-12%);
+  margin-right: -0.5%;
+}
+
+#symboltaurus {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-2%);
+  padding-right: 0.25%;
+}
+
+#symbolgemini {
+  display: inline-flex;
+  width: 3.5%;
+  height: 0.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-2%);
+  padding-right: 1.2%;
+}
+
+#symbolcancer {
+  display: inline-flex;
+  width: 6%;
+  height: 2%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-7%);
+  margin-left: -0.5%;
+}
+
+#symbolleo {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(5%);
+}
+
+#symbolvirgo {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(5%);
+}
+
+#symbollibra {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-15%);
+}
+
+#symbolscorpio {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-5%);
+}
+
+#symbolsagittarius {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-2%);
+}
+
+#symbolcapricorn {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-5%);
+}
+
+#symbolaquarius {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-5%);
+}
+
+#symbolpisces {
+  display: inline-flex;
+  width: 4.5%;
+  height: 1.5%;
+  vertical-align: middle;
+  position: relative;
+  transform: translateY(-2%);
+}
+
+#Citrine,
+#Agate,
+#Tiger,
+#Aquamarine {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#legends {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#Agatetext {
+  margin-left: 2%;
+}
+
+#Citrinetext {
+  padding-left: 2%;
+}
+
+#Aquatext {
+  margin-left: 2%;
+}

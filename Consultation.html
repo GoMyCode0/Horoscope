@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultation</title>
+    <link rel="stylesheet" href="consultationdesign.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="Landing.html" id="portal">The Portal</a>
+      <a href="Zodiacs.html" id="zodiac">The Zodiac Circle</a>
+      <a href="Consultation.html" id="oracle">The Oracle’s Lair</a>
+    </nav>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" />
+      <br>
+      <label for="tel">Telephone:</label>
+      <input type="tel" name="tel" id="tel" />
+      <br>
+      <label for="date">Reserve a date:</label>
+      <input type="date" name="date" id="date" min="2025-09-01"/> <br> <br>
+      <input type="submit" value="Seek Your Truth" id="submit" />
+    </form>
+
+    <div class="video-container">
+      <video autoplay muted loop playsinline>
+        <source src="fiery.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 10px 0;
+  
+}
+
+nav a {
+  color: #ffffff;
+  text-shadow: 0 0 5px #a2f6ff, 0 0 5px #0091ff;
+  font-family: Poiret One;
+  letter-spacing: 5px;
+  text-decoration: none;
+  padding: 9px 19px;
+  margin: 0 9px;
+  font-size: 18px;
+}
+
+#portal:hover {
+  text-shadow: 0 0 5px #e100ff, 0 0 5px #a2f6ff, 0 0 5px #bb00ff,
+    0 0 5px #b300ff;
+  border-radius: 1px;
+}
+
+#zodiac:hover {
+  text-shadow: 0 0 5px #ff9100, 0 0 5px #a2f6ff, 0 0 5px #ffa600,
+    0 0 5px #ff7700;
+  border-radius: 1px;
+}
+
+#oracle:hover {
+  text-shadow: 0 0 5px #00ff1a, 0 0 5px #0a4606, 0 0 5px #0cb128,
+    0 0 5px #0e893d;
+  border-radius: 1px;
+}
+
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#welcome {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.612);
+  font-family: Poiret One;
+  font-size: 19px;
+  text-shadow: 0 0 5px #5d0e76, 0 0 5px #fb00ff;
+  padding-top: 19%;
+  
+}

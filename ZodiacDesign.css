@@ -1,0 +1,91 @@
+body {
+  background-image: url(spacey.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-shadow: 0 0 5px #a2f6ff, 0 0 5px #0091ff;
+  font-family: Poiret One;
+  letter-spacing: 5px;
+  text-decoration: none;
+  padding: 9px 19px;
+  margin: 0 9px;
+  font-size: 18px;
+}
+
+#portal:hover {
+  text-shadow: 0 0 5px #e100ff, 0 0 5px #a2f6ff, 0 0 5px #bb00ff,
+    0 0 5px #b300ff;
+  border-radius: 1px;
+}
+
+#zodiac:hover {
+  text-shadow: 0 0 5px #ff9100, 0 0 5px #a2f6ff, 0 0 5px #ffa600,
+    0 0 5px #ff7700;
+  border-radius: 1px;
+}
+
+#oracle:hover {
+  text-shadow: 0 0 5px #00ff1a, 0 0 5px #0a4606, 0 0 5px #0cb128,
+    0 0 5px #0e893d;
+  border-radius: 1px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 30px;
+}
+
+.gallery img {
+  width: 20%;
+  height: auto;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-family: poiret one;
+  font-weight: 100;
+  font-size: 28px;
+  letter-spacing: 10px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px #a2f6ff, 0 0 5px #0091ff;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.gallery a {
+  display: inline-block; /* Makes sure <a> behaves like an image */
+  width: 20%; /* Same as other images */
+}
+
+.gallery a img {
+  width: 100%; /* Ensures the image fills the <a> */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes any extra spacing */
+}
+
+#pic:hover {
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #a2f6ff, 0 0 30px #ffffff;
+  transition: 0.4s ease-in-out;
+}
+
